@@ -1,11 +1,12 @@
 variable "vnet_name" {
   description = "Name of the vnet to create."
   type        = string
-  default     = "acctvnet"
+  default     = "berg-vnet01"
 }
 
 variable "resource_group_name" {
   description = "The name of an existing resource group to be imported."
+    default = "rg-berg01"
   type        = string
 }
 
